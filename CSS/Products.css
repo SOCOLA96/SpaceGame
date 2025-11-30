@@ -1,0 +1,222 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-weight: light;
+}
+
+/* Navigation bar */
+header {
+    background-color: orange;
+    color: black;
+}
+
+header .navbar {
+    background-color: orange !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.navbar-left {
+    border-right: 1px solid black;
+}
+
+/* Thanh link */
+
+a img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    opacity: 0.7;
+    margin: 20px 15px; 
+    padding: 10px;
+    /* border-left: 1px solid black; */
+}
+
+.Active-now {
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    opacity: 1;
+    color: white;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+
+.nav-link:focus {
+    opacity: 0.5;
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+
+/* Search-bar */
+
+.search {
+    background-color: orange;
+    border-radius: 20px;
+    color: black;
+}
+
+.search:focus {
+    border: none;
+}
+
+select{
+    background-color: orange;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+select option.placeholder{
+    color: grey;
+}
+
+/* Product cards */
+.products{
+    margin-top: 20px;
+}
+
+.card {
+    display: inline-flex;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+/* Cards button */
+.FP-button {
+    border: none;
+    border-radius: 30px;
+    width: 100%;
+    color: white;
+    font-weight: bolder;
+}
+
+.FP-button:hover {
+    background-color: chocolate;
+    color: black;
+}
+
+/* Section */
+.Products-section-1 {
+    padding: 30px 0;
+}
+
+.New1 {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    width: 150px;
+    height: 100px;
+}
+
+.Products-section-2 {
+    padding: 30px 0;
+}
+
+.New2 {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    width: 150px;
+    height: 100px;
+}
+
+.Products-section-3 {
+    padding: 30px 0;
+}
+
+.New3 {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    width: 150px;
+    height: 100px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+}
+
+.copyright {
+    color: #8f8f88;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.copyright>a {
+    color: #8f8f88;
+    font-weight: bolder;
+}
+
+/* ===RESPONSIVE=== */
+@media screen and (max-width: 1028px) {
+
+    .products {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 3rem;
+    }
+
+    .card-text {
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .New1 {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 200px;
+        height: 150px;
+    }
+
+    .New2 {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 200px;
+        height: 150px;
+    }
+
+    .New3 {
+        position: absolute;
+        left: 0px;
+        top: 0;
+        width: 200px;
+        height: 150px;
+    }
+
+    .navbar-left {
+        border-bottom: 1px solid black;
+        border-right: none;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<!-- Font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Bootstrap css -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+<!-- Main css -->
+<link rel="stylesheet" href="./CSS/Cart.css">
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="header">
+
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <a class="navbar-brand" href="#"><img src="./Images/gamespacelogo.png" alt="Game Space Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <div class="d-flex navbar-left">
+                            <a class="nav-link" href="./index.html">Trang chủ</a>
+                            <a class="nav-link" href="./About.html">Giới thiệu</a>
+                            <a class="nav-link" href="./Products.html">Sản phẩm</a>
+                            <a class="nav-link" href="./Contact.html">Liên hệ</a>
+                        </div>
+                        <a class="nav-link" href="./SignUp.html">Đăng ký</a>
+                        <a class="nav-link" href="./LogIn.html">Đăng nhập</a>
+                    </div>
+                </div>
+        </div>
+        </nav>
+    </header>
+
+    <section class="List">
+
+        <div class="container-fluid">
+            <table class="table">
+                <thead>
+                    <tr class="table-info">
+                        <th scope="col">Thứ tự</th>
+                        <th scope="col">Sản phẩm</th>
+                        <th scope="col">Số lượng</th>
+                        <th scope="col">Giá tiền</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-light">
+                        <th scope="row">1</th>
+                        <td class="Product-img"><img src="./Images/nintendo_switch2.jpg" alt="nintendo_switch2"></td>
+                        <td class="number">
+                            <form>
+                                <label for="number">
+                                    <input type="number" name="number" min="1" value="1">
+                                </label>
+                            </form>
+                        </td>
+                        <td>12.500.000 ₫</td>
+                        <td><i class="fa-solid fa-x" style="color: #ff0000;"></i></td>
+                    </tr>
+                    <tr class="table-light">
+                        <th scope="row">2</th>
+                        <td class="Product-img"><img src="./Images/Deltarune-game.jpg" alt="DELTARUNE"></td>
+                        <td class="number">
+                            <form>
+                                <label for="number">
+                                    <input type="number" name="number" min="1" value="1">
+                                </label>
+                            </form>
+                        </td>
+                        <td>1.300.000 ₫</td>
+                        <td><i class="fa-solid fa-x" style="color: #ff0000;"></i></td>
+                    </tr>
+                    <tr class="table-light">
+                        <th scope="row">3</th>
+                        <td class="Product-img"><img src="./Images/mario_kart_world_switch.jpg" alt=""></td>
+                        <td class="number">
+                            <form>
+                                <label for="number">
+                                    <input type="number" name="number" min="1" value="1">
+                                </label>
+                            </form>
+                        </td>
+                        <td>1.680.000 ₫</td>
+                        <td><i class="fa-solid fa-x" style="color: #ff0000;"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </section>
+
+    <div class="info">
+        <h5>Tổng số tiền</h5>
+        <p>15.480.000 ₫</p>
+    </div>
+
+    <button class="btn btn-warning Buy-btn" type="submit">Mua hàng</button>
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

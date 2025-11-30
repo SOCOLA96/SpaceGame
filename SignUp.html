@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+
+    <!-- Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="./CSS/SignUp.css">
+</head>
+
+<body>
+
+
+    <div class="login-container">
+        <div class="home">
+            <a href="./index.html"><i class="fa-solid fa-house"></i></a>
+        </div>
+        <form action="" class="form-container">
+            <h1>ĐĂNG KÝ</h1>
+            <div class="label-form">
+                <h5><label for="Tên tài khoản">Tên tài khoản: </label></h5>
+                <div class="input-form">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" name="Tên tài khoản" placeholder="Nhập tên" required minlength="6" maxlength="18"
+                        pattern="{6,8}" title="Hãy điền vào ít nhất 6 đến 18 ký tự">
+                </div>
+            </div>
+
+            <div class="label-form">
+                <h5><label for="Mật khẩu">Mật khẩu: </label></h5>
+                <div class="input-form">
+                    <i class="fa-regular fa-folder"></i>
+                    <input type="password" name="Mật khẩu" placeholder="Nhập mật khẩu" required minlength="6"
+                        maxlength="18" pattern="{6,18}" title="Hãy điền vào ít nhất 6 đến 18 chữ số">
+                </div>
+            </div>
+
+            <div class="label-form">
+                <h5><label for="password">Xác nhận mật khẩu: </label></h5>
+                <div class="input-form">
+                    <i class="fa-regular fa-folder"></i>
+                    <input type="password" name="Password" placeholder="Nhập lại mật khẩu" required minlength="6"
+                        maxlength="18" pattern="{6,18}" title="Hãy điền vào ít nhất 6 đến 18 chữ số">
+                </div>
+            </div>
+
+            <div class="label-form">
+                <h5><label for="email">Email </label></h5>
+                <div class="input-form">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Nhập email" required title="Hãy điền email vào đây">
+                </div>
+            </div>
+
+            <div class="Accept-form">
+                <h4><label for="Accept">Bạn có đồng ý với các điều khoản của chúng tôi? </label></h4>
+                <div class="check-box">
+                    <input type="checkbox" name="Accept" required>
+                </div>
+            </div>
+
+            <div class="Forgot">
+                <a href="./LogIn.html">Bạn đã có tài khoản?</a>
+            </div>
+
+            <button class="login-btn" type="submit">ĐĂNG KÝ</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

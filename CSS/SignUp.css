@@ -1,0 +1,144 @@
+/* ===GLOBAL=== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI';
+    background: linear-gradient(to right, #FFD151, #E77728);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.login-container {
+    background-color: white;
+    width: 350px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    margin-bottom: 25px;
+}
+
+h1:hover {
+    color: #FFD151;
+}
+
+.home{
+    position: absolute;
+    left: 560px;
+    top: 80px;
+    background-color: #E77728;
+    color: #FFD151;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.home>i{
+    width: 200px;
+    height: 200px;
+}
+/* ===LOGIN INFORMATION=== */
+.label-form {
+    text-align: left;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.label-form:Hover {
+    color: #FFD151;
+}
+
+.input-form i {
+    color: grey;
+    margin-right: 10px;
+}
+
+.input-form input {
+    border: none;
+    outline: none;
+    padding: 8px;
+}
+
+.Accept-form {
+    display: inline-flex;
+    text-align: left;
+    flex-direction: row-reverse;
+    
+}
+
+.Accept-form:hover {
+    color: #E77728;
+}
+
+.check-box {
+    align-content: center;
+    padding-right: 10px;
+}
+
+.Forgot {
+    text-align: center;
+    margin: 0 5px;
+}
+
+.Forgot a {
+    font-size: 15px;
+    color: grey;
+}
+
+.Forgot em {
+    font-size: 20px;
+    text-decoration: none;
+    color: grey;
+    padding: 0 10px;
+}
+
+.login-btn {
+    width: 100%;
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    padding: 12px;
+    cursor: pointer;
+    background: linear-gradient(to right, orange, #FFD23F);
+}
+
+.login-btn:hover {
+    background: linear-gradient(to left, orange, #FFD23F);
+}
+
+/* ===RESPONSIVE=== */
+@media screen and (max-width: 1028px) {
+
+    .navbar-left {
+        border-bottom: 1px solid black;
+        border-right: none;
+    }
+
+    .home{
+    position: absolute;
+    left: 183px;
+    top: 35px;
+    }
+    
+}
